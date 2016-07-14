@@ -1,0 +1,5 @@
+turtle.select(1)
+while turtle.getItemCount() > 0 do
+  turtle.up()
+  turtle.placeDown()
+end
